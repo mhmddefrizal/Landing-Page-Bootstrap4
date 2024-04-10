@@ -1,14 +1,47 @@
+/* All Version (Mobile Version) */
 /* Navbar */
 .navbar-brand {
   font-family: Viga;
   font-size: 32px;
 }
-/* Akhir Navbar */
+
+/* Jumbotron */
+.jumbotron {
+  background-image: url(img/jumbotron-bg.jpg);
+  background-size: cover;
+  height: 640px;
+}
+
+/* Utility Version */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
 
 /* Desktop Version */
 @media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+
   .nav-link {
     text-transform: uppercase;
     margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
   }
 }
