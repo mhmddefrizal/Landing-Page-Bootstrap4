@@ -63,6 +63,35 @@
   margin-bottom: 20px;
 }
 
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info-panel p {
+  font-size: 14px;
+  color: #acacac;
+  margin-top: -5px;
+}
+
+/* Workingspace */
+.workingspace {
+  margin-top: 120px;
+}
+
+.workingspace h3 {
+  font-size: 52px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.workingspace h3 span {
+  font-weight: 500;
+}
+
 /* Utility Version */
 .tombol {
   text-transform: uppercase;
